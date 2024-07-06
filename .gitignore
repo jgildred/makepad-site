@@ -1,5 +1,7 @@
-target/
+.DS_Store
 .spin/
+Cargo.lock
+target/
 frontend/target/
 webroot/makepad_platform/
 webroot/makepad_wasm_bridge/
