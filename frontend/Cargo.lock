@@ -309,7 +309,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "makepad-site"
+name = "makepad-site-frontend"
 version = "0.1.0"
 dependencies = [
  "makepad-widgets",

@@ -4,6 +4,7 @@ authors = ["John Gildred <274078+jgildred@users.noreply.github.com>"]
 description = "Static website template using Makepad"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
 
 [lib]
 crate-type = ["cdylib"]
