@@ -15,7 +15,7 @@ source = "target/wasm32-wasi/release/makepad_site.wasm"
 allowed_outbound_hosts = []
 
 [component.makepad-site.build]
-command = "cd frontend\ncargo makepad wasm build -p makepad-site-frontend --release\ncd ..\ncargo build --target wasm32-wasi --release"
+command = "./build-frontend.sh"
 watch = ["src/**/*.rs", "frontend/src/**/*.rs", "Cargo.toml", "frontend/Cargo.toml"]
 
 [[trigger.http]]
@@ -24,4 +24,4 @@ component = "static-server"
 
 [component.static-server]
 source = "static-server/spin_static_fs.wasm"
-files = [{ source = "frontend/target/makepad-wasm-app/release/makepad-site-frontend", destination = "/" }]
+files = [{ source = "webroot", destination = "/" }]
