@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["John Gildred <274078+jgildred@users.noreply.github.com>"]
 edition = "2021"
 description = "Web site template frontend using Makepad"
-license = "MIT OR Apache-2.0"
+license = "MIT"
 metadata.makepad-auto-version = "db3R5Gxh5Njhx8E-8kuZ2plQ1AI="
 
 [dependencies]
