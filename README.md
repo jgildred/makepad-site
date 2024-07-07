@@ -16,8 +16,9 @@ The Makepad root directory should be in the same directory as makepad-site:
 -  └── makepad-site
 
 In the makepad-site directory:
-- To build: spin build
-- To run: spin run
+- To build: "spin build"
+- To run: "spin run"
+- To deploy: "spin deploy" (needs Fermyon account setup)
 
 By default makepad-site will run locally at http://127.0.0.1:3000.
 
