@@ -2,11 +2,7 @@
 .spin/
 Cargo.lock
 target/
+webroot/
 frontend/target/
 frontend/.DS_Store
 frontend/Cargo.lock
-webroot/makepad_platform/
-webroot/makepad_wasm_bridge/
-webroot/makepad_widgets/
-webroot/index.html
-webroot/*.wasm
