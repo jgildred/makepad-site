@@ -22,6 +22,8 @@ In the makepad-site directory:
 
 By default makepad-site will run locally at http://127.0.0.1:3000.
 
+If you have a Fermyon account setup, you can deploy with "spin deploy".
+
 # customizing
 You can edit the frontend code in:
 - frontend/src/app.rs (App logic)
