@@ -4,7 +4,7 @@ use spin_sdk::http_component;
 /// A simple Spin HTTP component.
 #[http_component]
 fn handle_makepad_site(req: Request) -> anyhow::Result<impl IntoResponse> {
-    println!("Handling API request to {:?}", req.header("spin-full-url"));
+    println!("Handling API request to {:?}", req.header("spin-full-url").unwrap().as_str().unwrap());
     Ok(Response::builder()
         .status(200)
         .header("content-type", "text/plain")
