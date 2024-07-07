@@ -9,7 +9,10 @@ You need to install:
 - Spin (https://github.com/fermyon/spin)
 - Makepad (https://github.com/makepad/makepad)
 
-The Makepad root directory should be in the same directory as makepad-site.
+The Makepad root directory should be in the same directory as makepad-site:
+- some directory
+-- makepad
+-- makepad-site
 
 In the makepad-site directory:
 - To build: spin build
