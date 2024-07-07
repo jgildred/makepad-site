@@ -5,15 +5,18 @@
 
 # building
 You need to install:
-- Rust (https://www.rust-lang.org/)
+- Rust (https://www.rust-lang.org/tools/install)
 - Spin (https://github.com/fermyon/spin)
-- Makepad (https://github.com/makepad/makepad)
+- Makepad (https://github.com/makepad/makepad) best to use latest from repo
 
 The Makepad root directory should be in the same directory as makepad-site:
 
 - parent directory
 -  ├── makepad
 -  └── makepad-site
+
+You will need to install cargo-makepad before building. If you are in the the makepad-site directory the command would be:
+- "cargo install --path=../makepad/tools/cargo_makepad"
 
 In the makepad-site directory:
 - To build: "spin build"
