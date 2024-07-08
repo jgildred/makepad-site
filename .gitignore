@@ -3,6 +3,3 @@
 Cargo.lock
 target/
 webroot/
-frontend/target/
-frontend/.DS_Store
-frontend/Cargo.lock
