@@ -1,0 +1,3 @@
+[submodule "makepad-site-frontend"]
+	path = makepad-site-frontend
+	url = https://github.com/jgildred/makepad-site-frontend.git
