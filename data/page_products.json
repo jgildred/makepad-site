@@ -1,0 +1,17 @@
+{
+  "name": "Products",
+  "sections": [
+    {
+      "layout": "text",
+      "padding": 0,
+      "text": "this is the text of the first section",
+      "image_url": ""
+    },
+    {
+      "layout": "text",
+      "padding": 0,
+      "text": "this is the text of the first section",
+      "image_url": ""
+    }
+  ]
+}

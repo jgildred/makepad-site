@@ -1,0 +1,14 @@
+{
+  "name": "About",
+  "sections": [
+    {
+      "layout": "text",
+      "padding": 0,
+      "text": "this is the text of the first section"
+    },
+    {
+      "layout": "text",
+      "text": "this is the text of the first section"
+    }
+  ]
+}
