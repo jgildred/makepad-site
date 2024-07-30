@@ -7,8 +7,42 @@ authors = ["John Gildred <274078+jgildred@users.noreply.github.com>"]
 description = "Static website template using Makepad"
 
 [[trigger.http]]
-route = "/api/..."
+route = "/"
+component = "static-server"
+
+[[trigger.http]]
+route = "/index.html"
+component = "static-server"
+
+[[trigger.http]]
+route = "/makepad-site-frontend.wasm"
+component = "static-server"
+
+[[trigger.http]]
+route = "/makepad_platform/..."
+component = "static-server"
+
+[[trigger.http]]
+route = "/makepad_site_frontend/..."
+component = "static-server"
+
+[[trigger.http]]
+route = "/makepad_wasm_bridge/..."
+component = "static-server"
+
+[[trigger.http]]
+route = "/makepad_widgets/..."
+component = "static-server"
+
+[[trigger.http]]
+route = "/..."
 component = "makepad-site"
+
+[component.static-server]
+source = "static-server/spin_static_fs.wasm"
+files = [{ source = "webroot", destination = "/" }]
+
+
 
 [component.makepad-site]
 source = "target/wasm32-wasi/release/makepad_site.wasm"
@@ -18,10 +52,4 @@ allowed_outbound_hosts = []
 command = "./build-frontend.sh\ncargo build --target wasm32-wasi --release"
 watch = ["src/**/*.rs", "makepad-site-frontend/src/**/*.rs", "Cargo.toml", "makepad-site-frontend/Cargo.toml"]
 
-[[trigger.http]]
-route = "/..."
-component = "static-server"
 
-[component.static-server]
-source = "static-server/spin_static_fs.wasm"
-files = [{ source = "webroot", destination = "/" }]
