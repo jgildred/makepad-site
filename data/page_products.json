@@ -4,7 +4,7 @@
     {
       "layout": "image",
       "padding": 0,
-      "image_url": "/makepad_site_frontend/resources/test-image.jpg"
+      "image_url": "prod_pomegranate.png"
     },
     {
       "layout": "text",
@@ -17,19 +17,15 @@
       "text": "this is the text of the third section"
     },
     {
-      "layout": "text",
+      "layout": "image-text",
       "padding": 0,
+      "image_url": "prod_watermelon.png",
       "text": "this is the text of the fourth section"
     },
     {
       "layout": "text",
       "padding": 0,
       "text": "this is the text of the fifth section"
-    },
-    {
-      "layout": "image",
-      "padding": 0,
-      "image_url": "/makepad_site_frontend/resources/test-image.jpg"
     }
   ]
 }

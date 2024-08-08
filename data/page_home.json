@@ -4,7 +4,7 @@
     {
       "layout": "image",
       "padding": 0,
-      "image_url": "/makepad_site_frontend/resources/test-image.jpg"
+      "image_url": "home_background.png"
     },
     {
       "layout": "text",
@@ -17,19 +17,15 @@
       "text": "this is the text of the third section"
     },
     {
-      "layout": "image",
-      "padding": 0,
-      "image_url": "/makepad_site_frontend/resources/test-image.jpg"
-    },
-    {
       "layout": "text",
       "padding": 0,
       "text": "this is the text of the fourth section"
     },
     {
-      "layout": "text",
+      "layout": "text-image",
       "padding": 0,
-      "text": "this is the text of the fifth section"
+      "text": "this is the text of the fifth section",
+      "image_url": "prod_cherries.png"
     },
     {
       "layout": "text",

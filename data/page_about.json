@@ -4,7 +4,7 @@
     {
       "layout": "image",
       "padding": 0,
-      "image_url": "/makepad_site_frontend/resources/test-image.jpg"
+      "image_url": "about_sitting.png"
     },
     {
       "layout": "text",
@@ -20,16 +20,6 @@
       "layout": "text",
       "padding": 0,
       "text": "this is the text of the fourth section"
-    },
-    {
-      "layout": "text",
-      "padding": 0,
-      "text": "this is the text of the fifth section"
-    },
-    {
-      "layout": "text",
-      "padding": 0,
-      "text": "this is the text of the sixth section"
     }
   ]
 }

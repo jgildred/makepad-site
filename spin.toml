@@ -12,7 +12,7 @@ allowed_outbound_hosts = []
 
 [component.makepad-site.build]
 command = "./build-frontend.sh\ncargo build --target wasm32-wasi --release"
-watch = ["src/**/*.rs", "makepad-site-frontend/src/**/*.rs", "Cargo.toml", "spin.toml", "makepad-site-frontend/Cargo.toml"]
+watch = ["src/**/*.rs", "makepad-site-frontend/src/**/*.rs", "data/**/*.json", "Cargo.toml", "spin.toml", "makepad-site-frontend/Cargo.toml"]
 
 [[trigger.http]]
 route = "/api/..."

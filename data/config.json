@@ -1,4 +1,6 @@
 {
+  "site_name": "Test Site",
+  "logo_image_url": "logo.png",
   "page_order": [ "Home", "Products", "About" ],
   "default_page": "Home"
 }
